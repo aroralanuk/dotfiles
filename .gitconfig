@@ -5,4 +5,6 @@
 	email = kunalarora1729@gmail.com
 	signingkey = 0BA6B0ECFE790BB1
 [gpg]
-	format = ssh
+	program = /opt/homebrew/bin/gpg
+[commit]
+	gpgsign = false

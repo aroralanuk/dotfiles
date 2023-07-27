@@ -12,3 +12,6 @@ if [ -f '/Users/kunalarora/google-cloud-sdk/completion.zsh.inc' ]; then . '/User
  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completioneval "$(pyenv init -)"
 
 mkcd () { mkdir "$@" && cd "$@"; }
+
+alias h="history -10"
+export GPG_TTY=$(tty)
