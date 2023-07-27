@@ -3,3 +3,6 @@
 # Please adapt and uncomment the following lines:
 	name = Kunal Arora
 	email = kunalarora1729@gmail.com
+	signingkey = 0BA6B0ECFE790BB1
+[gpg]
+	format = ssh
